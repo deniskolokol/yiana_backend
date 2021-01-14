@@ -54,6 +54,7 @@ coverage.xml
 # Django stuff:
 *.log*
 *local.*
+local.*
 static/admin
 static/django_extensions
 static/gis
@@ -114,10 +115,6 @@ db.sqlite3
 # Don't expose user data
 fixtures
 
-# Don't expose models and NLP corpora
-*.lst
-*.bin
-
 # emacs
 *.py~
 *.~
@@ -126,7 +123,6 @@ fixtures
 
 # Docker volumes and data dirs
 docker/data*
-core/nlp/data*
 
 # Certificates, keys, etc.
 *.rsa
