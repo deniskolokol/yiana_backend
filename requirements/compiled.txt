@@ -1,0 +1,11 @@
+# Just for reference. Compiled libs should better be installed
+# by system package manager such as pacman.
+
+PostgreSQL
+  apt-get install postgresql
+
+lxml
+  apt-get install python-lxml
+
+gettext
+  apt-get install gettext
